@@ -1,0 +1,1311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02131E914CD548E4B2B9513871D94C08 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C90728C4F3FF065A1BBAE48D8EB37696 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		04A70C5A8775DE35E0EB22E65BAE94CB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60B81DCA4D693866363059EC5A536A5 /* Photos.framework */; };
+		056DB216FCD8640A51B540C46A4FAAE5 /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DEB77562726446B1332BB92E422BFF /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 458101B2980126C3CEAA10A5162AE4C5 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FCDDF11B189E32606036045E5D81B8 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0891D6EB76F5048AEC0EDE6BCB0BC151 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB5E3173FC2611BFD0A7BE4A966A476 /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A238969C1DB8B5AC1B314FB35D0E1DE /* TZImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB7A99F1BCC5B2F82BA2CD2031E9A3 /* TZImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C09BF57D60217C4607C3E06A7E3F47 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD0E8DD52897E7D64E85E6667D56AE8 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B30A5B03AF8389B3139B20FE21CBFA /* TZImageCropManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E7FF8C6F624558702E00178BC97E84A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BB30AB6CCEFE17AF4412CD09A8B44 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		104E7B3F596C88BFC1933E78ED3ACAC3 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4320A1002408B05B3A6F54A537A5B33 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C6E46A5E0FD04DBF7866649491D5F7 /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC044C59F24EF9461C9CFFD27B2375C /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E263CAE24019CFE3D33943B079439A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA4A2CD6CE61FA2C459B6556CB8B3A /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		17682BBCAF1C2E34A74C422D945DE84A /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB5F32A72C2BDFA3C62CFCE8064DC14 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187569DBD35CD3CFE036CEAB107CA854 /* NSBundle+TZImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 429CEB2DE395FD9F9D596C863F9BEE55 /* NSBundle+TZImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B41AC54E11CACC13E07B06EC6D17919 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A996B9CDC6B57B891FEFFAC8F6D0222 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D0DBE1892E2EC5746E446442DBB8190 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB4819518846C7A4505A8432AE34D6A /* QuartzCore.framework */; };
+		20C47629AD9EFF6232796690CA4FF6AC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35CCD9556285725B6FB55B6A03C30 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		237DB08B51A6E9EC88AFFDFB8410A4DF /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B416B67C512D96B53813EFBE05529EF9 /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		248D234778D36A89A6170BA3778A2777 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932A7D3F5EBA6000E7B25E5D82F3DA5 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD6E6DE4F5925640F2429CCAB377878 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3C65EB96B8237408B8CFC1586F406E /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FEAE866CA3BF793FF49AA9C51A85A1 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C43817529EB28E5896C72C9BE82A2FA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B80E76B1BD91283CB43DF1E1B056DB /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32E3C2286274FFAF162933CEC390699D /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DE057AF602D53EF8CEA0D797E0289 /* TZImageManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 291D95A94CE5147BB77F5583FE7E7B41 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358B5472D6E2E4E2DF60DE343796E7AA /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE05146B9A42BAFEFD882A5D42907BCD /* TZLocationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3896E5E8D9B898ADD41834D8EC509DFB /* Pods-GKNavigationBarViewControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3363B151C4F1CC9906F1C6631303AD /* Pods-GKNavigationBarViewControllerDemo-dummy.m */; };
+		3B2A13FD720BF70389C731D834C1117B /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BDCB4925CDCD5802C445F87CB51F53 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D766954D1E40BCA3951EE2BE8BE20D7 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D57A781CD7B7FD9C95407F48AE16E2F /* TZAssetModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B0119FE3C32A32788F7CB8F4915226CC /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40AD629DC248DD9F8AE636A2DB0C5F95 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CD0A29E6134C7C3CEE23EAF9367AC9 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4153FE6A5FA375E819855DC569F90F91 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CFD2458ECAA7AB06AC92C02CCD42B3 /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		41E6B383D3A223776305158A6E7B76EF /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873862F6BA65B7D2AEDD9B14EF6C98A9 /* TZGifPhotoPreviewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		426FD9B96DB54B6557CAA2C058A7CDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3516C19B2DE5AA471D4617F4C71E7E2D /* Foundation.framework */; };
+		45BF06B09C4572899413233D32136475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3516C19B2DE5AA471D4617F4C71E7E2D /* Foundation.framework */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D3EB77A0A4CFF4DE6281BFF9C672D0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		505A0529CDF3A5A2E694D0CE0BA81EDE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF022BFF67B5313D5556473F7A406F9 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51887D7547C119FBE1E95A2A9BA85DDB /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = C92DFB8DF7CA8E6162B255945D233824 /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5409D0F19C959291277E9F2F527D9570 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4C16B125E0F44A802A3F01EDDFDF7 /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3516C19B2DE5AA471D4617F4C71E7E2D /* Foundation.framework */; };
+		5A812CCABB27AB947183CFFFAC6FF709 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6072C5B20A7F029A252819D23C90B /* IQKeyboardManager-dummy.m */; };
+		5CB6B38AB6F0E37F8910BE3B658CBD59 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D95AAEF84F7EF8190DA1A701A79AC2 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452AEF825ADB801EFBFBED35DCF695BF /* UIKit.framework */; };
+		65487B179C7463FE192A439C5172208B /* TZPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D675CF61DCEA838CC024168C4BA48A71 /* TZPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654DE054134D461CF806F6B732CCDD69 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B46A817C25C15E6513FF5CF20F346E /* UIView+Layout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		65FD7D51754811E0C8E638BC6423FEBC /* TZImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEB00672C37FF8143468FF73C29A7A1 /* TZImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672E4E7567F40F8F5277E5A3AD8BBC0F /* TZAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D088B40BC2BCA47CBEE9C86BAC7E6E72 /* TZAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F066E951EBD2AD5138FFFAD9FCF58961 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B92CE9CDF2C3FA278CB05071297D2A7 /* TZImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC32457F03FC057808B2A4597A5510D /* TZImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF82ADE657E689F4F4D4FB0C1D27248 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 967A96BFF81031F149B06E3C56EFA278 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD06A4C10D58A87A304E9B84F60CDD0 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B485388B884CA41793DCAFE648F115CA /* TZPhotoPreviewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F8E2FA778D62979991AAEC19B9EE9E9 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CEAF0641C414930C4A61212346BFE1 /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FC1476D9D7E4AEF05CA3DDFEF41EBA0 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 965F298ACC43D9A546CDEA197A72133C /* TZProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7266EFAF956AEA659AF4D5A589CA4D97 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4F8E039BB8098144DDECA7B7C85BF3 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781A3911FFE8E07B09C2B767504F2B7C /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFEE193304116C2ECA2A28870B433FB /* TZAssetCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		79E9D7C1CDDB8E3398CAF29C3CB73F9D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 958DFBADEF78AC5C141BA9AC0AAD7A06 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C6A70056BE6B0170C0A6369E60B1AD3 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA0D46C14DC5C30C1C5F3FC80C7AC3A /* IQTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		83497A890B9CB920B1725BFCA09464F6 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F7F6ACAB6C11247E6281A56848E402 /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		85CD29CF6187A74CEF593DB6F45066F7 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6928DA1D100497F76B40CD2BD967E944 /* TZPhotoPickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8839DA33B5164E66F5730317AE92546E /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CBE29FA24BBAB6EAF860ECE7051CCF /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AC42164BB553A12EB55C2FD1A1ED601A /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3E1034DC5E8F6DBAA13123CC4AEB1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82BB3869887F5A33AFCF7E5B96E4631 /* CoreGraphics.framework */; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7BBD7BD722E33BEDF0315B53FAB1F4 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 783CAC07C4DC964911D034F2AFCB1AB3 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD251DE11D233E539255A6DD7C1CC3B /* Pods-GKNavigationBarViewControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 356976884845EA51D666CFA0E821A975 /* Pods-GKNavigationBarViewControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E26DDA3C4CC7BDACDD059969833B74 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0499C3B71A4A5799B8671F6B532DDBD /* Masonry-dummy.m */; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C98DC6755E6B7503FDD8C731C0CE9358 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94290DF957E14F36AE503C2567D97B0B /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02766C8717CC9341467A5FD7A2072906 /* IQUIScrollView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		953DA5F7A0BBD69304E018FB326E7F87 /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 566D5BB82743633BE1C0ED5D7B0FC254 /* TZImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDB9BA1378CD5E21837D35BAEA9EAF7 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AED39AF016E0E56313894133498812 /* TZVideoPlayerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6EA7CCCC7B315C11DEA228F6818B51 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2124E1EF06C9BA13E2CCC41B3C750E3 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F6658550FB9A561D5ECF67ACCA219988 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A995C4CB88129960208C1D1D03F08AEB /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AC9B0C9F12EECB01DF75052BC0A60 /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A9CA119D1495708E728C2ACB29F2F8C0 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F199ACF0A774C7F5EC1477FA7FB7FE /* NSBundle+TZImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B04E8E7233AB37E36F5580FEDEED3E07 /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FBAF5F20368D161A59FED4B457F284 /* TZLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F741924D26FBF0403B284AED21EDCB /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DD49D5FAC74E42F98FF5223BA5661DC0 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B68E3D20C0430E7EFCA57C2228F4F940 /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D0993585B87B1BDDD674A36127C5E /* TZImagePickerController-dummy.m */; };
+		B870CF099D7C8C1B2EA0B0A101987F67 /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9971A2379DCB3FF8433EBC5873D665 /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4DCEA0F75A7BD1EB16C0B63C9C6E755 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA22BA834E25966423B4334D93CFF /* TZImagePickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C5A3A2203ACFDDB09D55D4C3CFFC0CE5 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF298E2F3D1CEA032085AA76D70EC7F7 /* TZImagePickerController.bundle */; };
+		C8384B6001669935FDB5CC4B7CD09EC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452AEF825ADB801EFBFBED35DCF695BF /* UIKit.framework */; };
+		C8AFE4AA2DB906E9CBC45F785CEE3BBD /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7049BA642CA6FDBFDFFE6A5F315F0DB0 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B07F99D0AAD94687F397DEA9B82F3A /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07447E8974CBA40A466EF8C33386CDC2 /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CA1A522719F56F1FB8368A37A350430D /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D183C602DB091B1F5E551BCF9005EF90 /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CA7B0AC60C91CFC08BBC70E8627F708E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3516C19B2DE5AA471D4617F4C71E7E2D /* Foundation.framework */; };
+		CFC0DE364E072FB0A0432DDEBC0E45A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DB908D535DF6976BC4E5154C7FA947 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5EE57D4AA3DB113162B65421755ABAB /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E596D87C6FDB5BE4A88F714DBC5E8F2 /* IQPreviousNextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5EEB662A0672864F275BA22905A92CD /* TZProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F64E8DF0066B2CB8B3E29A986E8E3C94 /* TZProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62D938F537BEBABFF332AAA5B0F9B3D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2ED7F76282CB42B06F4A2B1512AEA4 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DDB1D2957AD7DECA4F52370D857AC91F /* TZGifPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC86496856ABCFF6AB91EDDD4D202FB /* TZGifPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57825CF138179E83F60D74FFEEDF1C6 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99B0F2D73A588551E412CE8EF0C52B /* TZPhotoPreviewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2578BE896CD4CCD4D535219536065AD4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F2790057BB71124B3CF8B059A142AC /* TZAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E4558E6D139D1CED34286D1DD7659C /* TZAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2764A763012C5ABECB1DAF2BE7FCCF04 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8E032478076D990AFE8AD4D4D09FB0 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0749187E78373A1F96B2732CE7FE7193 /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EDB40C49F91B97947EB141BEB93DB917 /* TZImageCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 823803324B57F037379BB9419A32CF7B /* TZImageCropManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA8462A0CC26EB370FB6FC0906A0CFF /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = BE51FE60820BC89202B3D58AC6E33276 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F001AAF4528E0DC15FB3EDD895E236DD /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0EAF5E3369D3C600809B995F2C7 /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F2A668AA88EA854A2523594282CACD88 /* TZImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E59D6B1D26CC294AC5C0658EC597B5F8 /* TZImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F564AC14CA7F3E6B7C01CBA680282277 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3E2CF0A73B5BFB4924F185500AEC86 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2749EF3246B47AD0EFDE3501AC7AAE71 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43705260855AEBB5493D4285DAA106BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96BBB982D62BB807B5BD10774BE2D07;
+			remoteInfo = TZImagePickerController;
+		};
+		690D37CDAB8D946FE23F4895CA8303EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		ACA1F733864EBEA90A68370DF0CFE1BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA456CB50E371584C11231929A0971E;
+			remoteInfo = IQKeyboardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FCDDF11B189E32606036045E5D81B8 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		02766C8717CC9341467A5FD7A2072906 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		032DD039AE58B033ED95A539B30A4980 /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		05D95AAEF84F7EF8190DA1A701A79AC2 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		05F199ACF0A774C7F5EC1477FA7FB7FE /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		07447E8974CBA40A466EF8C33386CDC2 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		0749187E78373A1F96B2732CE7FE7193 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		079270A7C4EA9B537341A7BD519E8081 /* Pods-GKNavigationBarViewControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GKNavigationBarViewControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		0A996B9CDC6B57B891FEFFAC8F6D0222 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		0AD6072C5B20A7F029A252819D23C90B /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		0AEB00672C37FF8143468FF73C29A7A1 /* TZImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageRequestOperation.h; path = TZImagePickerController/TZImagePickerController/TZImageRequestOperation.h; sourceTree = "<group>"; };
+		0C3F30F040782B41C64B096EB793E398 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		0DC044C59F24EF9461C9CFFD27B2375C /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		0DDBA22BA834E25966423B4334D93CFF /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
+		106578132F770BD93B915B4298DD6511 /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		14F5F19E00A151D6E39846144699692B /* Pods-GKNavigationBarViewControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GKNavigationBarViewControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16FEAE866CA3BF793FF49AA9C51A85A1 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		1746EAD6237DDA16BA232E7BED173664 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		18CC07637E43C7E244B55826DD58E330 /* IQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.release.xcconfig; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FBAF5F20368D161A59FED4B457F284 /* TZLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZLocationManager.h; path = TZImagePickerController/TZImagePickerController/TZLocationManager.h; sourceTree = "<group>"; };
+		2578BE896CD4CCD4D535219536065AD4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2749EF3246B47AD0EFDE3501AC7AAE71 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		2764A763012C5ABECB1DAF2BE7FCCF04 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		291D95A94CE5147BB77F5583FE7E7B41 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		2DC4C16B125E0F44A802A3F01EDDFDF7 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		3516C19B2DE5AA471D4617F4C71E7E2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		351EFA9A6C25C723849A90E5530D59C6 /* Pods-GKNavigationBarViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKNavigationBarViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		356976884845EA51D666CFA0E821A975 /* Pods-GKNavigationBarViewControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKNavigationBarViewControllerDemo-umbrella.h"; sourceTree = "<group>"; };
+		3A8D0993585B87B1BDDD674A36127C5E /* TZImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		3AC32457F03FC057808B2A4597A5510D /* TZImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-umbrella.h"; sourceTree = "<group>"; };
+		3AF022BFF67B5313D5556473F7A406F9 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		41E35CCD9556285725B6FB55B6A03C30 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		429CEB2DE395FD9F9D596C863F9BEE55 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		43F7F6ACAB6C11247E6281A56848E402 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		44E4558E6D139D1CED34286D1DD7659C /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
+		452AEF825ADB801EFBFBED35DCF695BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		458101B2980126C3CEAA10A5162AE4C5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		47FC7E3C4A07ADF780F825E1D30713B2 /* TZImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TZImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		4B0AC9B0C9F12EECB01DF75052BC0A60 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		4B7BBD7BD722E33BEDF0315B53FAB1F4 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4D7BB30AB6CCEFE17AF4412CD09A8B44 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		506B387E4A46B95BAD1EE6A4BA57E4EF /* Pods-GKNavigationBarViewControllerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKNavigationBarViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		53B680E62150E9C45857F091D694F3B6 /* TZImagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.debug.xcconfig; sourceTree = "<group>"; };
+		53C09BF57D60217C4607C3E06A7E3F47 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		54D2DA8648EAE89D82A145E7884869FB /* Pods_GKNavigationBarViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKNavigationBarViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566D5BB82743633BE1C0ED5D7B0FC254 /* TZImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageManager.h; path = TZImagePickerController/TZImagePickerController/TZImageManager.h; sourceTree = "<group>"; };
+		56CBE29FA24BBAB6EAF860ECE7051CCF /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		5744039C914B9902850CEC6E3F7841E1 /* Pods-GKNavigationBarViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKNavigationBarViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		58B30A5B03AF8389B3139B20FE21CBFA /* TZImageCropManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageCropManager.m; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.m; sourceTree = "<group>"; };
+		5BB5F32A72C2BDFA3C62CFCE8064DC14 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		6928DA1D100497F76B40CD2BD967E944 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPickerController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.m; sourceTree = "<group>"; };
+		6D6EA7CCCC7B315C11DEA228F6818B51 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7049BA642CA6FDBFDFFE6A5F315F0DB0 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		73AED39AF016E0E56313894133498812 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
+		76014E0E5700E2353B13BD7D8DB26291 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		781012BDB14C084FAFA5FC47F50A6ED7 /* Pods-GKNavigationBarViewControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GKNavigationBarViewControllerDemo.modulemap"; sourceTree = "<group>"; };
+		783CAC07C4DC964911D034F2AFCB1AB3 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7932A7D3F5EBA6000E7B25E5D82F3DA5 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		7AD6E6DE4F5925640F2429CCAB377878 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		7E596D87C6FDB5BE4A88F714DBC5E8F2 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		823803324B57F037379BB9419A32CF7B /* TZImageCropManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageCropManager.h; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.h; sourceTree = "<group>"; };
+		830E746EAB763DDF8928973C60C017FD /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		83DB908D535DF6976BC4E5154C7FA947 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		873862F6BA65B7D2AEDD9B14EF6C98A9 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZGifPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		8D57A781CD7B7FD9C95407F48AE16E2F /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
+		8E1D5C0FCA0D872C3F21E87F25420681 /* TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CFD2458ECAA7AB06AC92C02CCD42B3 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		958DFBADEF78AC5C141BA9AC0AAD7A06 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		965F298ACC43D9A546CDEA197A72133C /* TZProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZProgressView.m; path = TZImagePickerController/TZImagePickerController/TZProgressView.m; sourceTree = "<group>"; };
+		967A96BFF81031F149B06E3C56EFA278 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		9733F0EAF5E3369D3C600809B995F2C7 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D3EB77A0A4CFF4DE6281BFF9C672D0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		9C3E2CF0A73B5BFB4924F185500AEC86 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		9C9971A2379DCB3FF8433EBC5873D665 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC86496856ABCFF6AB91EDDD4D202FB /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZGifPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		A3CDC3C319805ECB6C29495E82011774 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		A60B81DCA4D693866363059EC5A536A5 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		A898FE732531FD484ACBA48EB3D35998 /* IQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.debug.xcconfig; sourceTree = "<group>"; };
+		A9B80E76B1BD91283CB43DF1E1B056DB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		AA4F8E039BB8098144DDECA7B7C85BF3 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		AC42164BB553A12EB55C2FD1A1ED601A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		B0119FE3C32A32788F7CB8F4915226CC /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		B233A10889037D114148EFC0D76937E4 /* TZImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.release.xcconfig; sourceTree = "<group>"; };
+		B416B67C512D96B53813EFBE05529EF9 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPickerController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h; sourceTree = "<group>"; };
+		B485388B884CA41793DCAFE648F115CA /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		B4CEAF0641C414930C4A61212346BFE1 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		B5EA8FE7A15239E5169D1533229AB5B0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		BA6DE057AF602D53EF8CEA0D797E0289 /* TZImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageManager.m; path = TZImagePickerController/TZImagePickerController/TZImageManager.m; sourceTree = "<group>"; };
+		BCFEE193304116C2ECA2A28870B433FB /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
+		BD6B004EA289738669851D8C9E99572B /* TZImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZImagePickerController.modulemap; sourceTree = "<group>"; };
+		BE51FE60820BC89202B3D58AC6E33276 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		BFBB7A99F1BCC5B2F82BA2CD2031E9A3 /* TZImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageRequestOperation.m; path = TZImagePickerController/TZImagePickerController/TZImageRequestOperation.m; sourceTree = "<group>"; };
+		C2EA4A2CD6CE61FA2C459B6556CB8B3A /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		C4B46A817C25C15E6513FF5CF20F346E /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.m"; sourceTree = "<group>"; };
+		C4BDCB4925CDCD5802C445F87CB51F53 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		C90728C4F3FF065A1BBAE48D8EB37696 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C92DFB8DF7CA8E6162B255945D233824 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		C98DC6755E6B7503FDD8C731C0CE9358 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		CCB5E3173FC2611BFD0A7BE4A966A476 /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
+		CE05146B9A42BAFEFD882A5D42907BCD /* TZLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZLocationManager.m; path = TZImagePickerController/TZImagePickerController/TZLocationManager.m; sourceTree = "<group>"; };
+		CEB4819518846C7A4505A8432AE34D6A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CF298E2F3D1CEA032085AA76D70EC7F7 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
+		D088B40BC2BCA47CBEE9C86BAC7E6E72 /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
+		D183C602DB091B1F5E551BCF9005EF90 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		D675CF61DCEA838CC024168C4BA48A71 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		DD49D5FAC74E42F98FF5223BA5661DC0 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		DD99C46B192861170ACBAD7CA7104A7D /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		DE99B0F2D73A588551E412CE8EF0C52B /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		E0499C3B71A4A5799B8671F6B532DDBD /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E59D6B1D26CC294AC5C0658EC597B5F8 /* TZImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImagePickerController.h; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.h; sourceTree = "<group>"; };
+		EB2ED7F76282CB42B06F4A2B1512AEA4 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F066E951EBD2AD5138FFFAD9FCF58961 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		F1F639DAC5C1A3F0B03DCEA8B52AA11C /* Pods-GKNavigationBarViewControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKNavigationBarViewControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2DEB77562726446B1332BB92E422BFF /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		F4320A1002408B05B3A6F54A537A5B33 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		F64E8DF0066B2CB8B3E29A986E8E3C94 /* TZProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZProgressView.h; path = TZImagePickerController/TZImagePickerController/TZProgressView.h; sourceTree = "<group>"; };
+		F6658550FB9A561D5ECF67ACCA219988 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		F82BB3869887F5A33AFCF7E5B96E4631 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F9CD0A29E6134C7C3CEE23EAF9367AC9 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		FE3363B151C4F1CC9906F1C6631303AD /* Pods-GKNavigationBarViewControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GKNavigationBarViewControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		FFA0D46C14DC5C30C1C5F3FC80C7AC3A /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B81D36864111405952DE674DFB6A43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3E1034DC5E8F6DBAA13123CC4AEB1F /* CoreGraphics.framework in Frameworks */,
+				426FD9B96DB54B6557CAA2C058A7CDA7 /* Foundation.framework in Frameworks */,
+				1D0DBE1892E2EC5746E446442DBB8190 /* QuartzCore.framework in Frameworks */,
+				C8384B6001669935FDB5CC4B7CD09EC6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411E079DA36712097C6C0C920B70EA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF06B09C4572899413233D32136475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */,
+				5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1C1C737785871D52FDF5308DBE844A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7B0AC60C91CFC08BBC70E8627F708E /* Foundation.framework in Frameworks */,
+				04A70C5A8775DE35E0EB22E65BAE94CB /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F5DC0C50181970DE6E7A8BC12FDF09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				976A5039CA5C288B010F5317E71AA2D3 /* IQKeyboardManager */,
+				BA520DFA3518BF837B87AC6F6158F6F4 /* Masonry */,
+				61DDB0504B1706F52A3CEE3721F9833E /* TZImagePickerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2816AC256963AD30B19AB77F4642F535 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF298E2F3D1CEA032085AA76D70EC7F7 /* TZImagePickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4CBD56F97AA567C1A057327B66386667 /* Pods-GKNavigationBarViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				781012BDB14C084FAFA5FC47F50A6ED7 /* Pods-GKNavigationBarViewControllerDemo.modulemap */,
+				14F5F19E00A151D6E39846144699692B /* Pods-GKNavigationBarViewControllerDemo-acknowledgements.markdown */,
+				F1F639DAC5C1A3F0B03DCEA8B52AA11C /* Pods-GKNavigationBarViewControllerDemo-acknowledgements.plist */,
+				FE3363B151C4F1CC9906F1C6631303AD /* Pods-GKNavigationBarViewControllerDemo-dummy.m */,
+				079270A7C4EA9B537341A7BD519E8081 /* Pods-GKNavigationBarViewControllerDemo-frameworks.sh */,
+				506B387E4A46B95BAD1EE6A4BA57E4EF /* Pods-GKNavigationBarViewControllerDemo-Info.plist */,
+				356976884845EA51D666CFA0E821A975 /* Pods-GKNavigationBarViewControllerDemo-umbrella.h */,
+				5744039C914B9902850CEC6E3F7841E1 /* Pods-GKNavigationBarViewControllerDemo.debug.xcconfig */,
+				351EFA9A6C25C723849A90E5530D59C6 /* Pods-GKNavigationBarViewControllerDemo.release.xcconfig */,
+			);
+			name = "Pods-GKNavigationBarViewControllerDemo";
+			path = "Target Support Files/Pods-GKNavigationBarViewControllerDemo";
+			sourceTree = "<group>";
+		};
+		5A0A2139501A4A2BCE247DB5399ECCD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CDC3C319805ECB6C29495E82011774 /* IQKeyboardManager.modulemap */,
+				0AD6072C5B20A7F029A252819D23C90B /* IQKeyboardManager-dummy.m */,
+				106578132F770BD93B915B4298DD6511 /* IQKeyboardManager-Info.plist */,
+				0C3F30F040782B41C64B096EB793E398 /* IQKeyboardManager-prefix.pch */,
+				0DC044C59F24EF9461C9CFFD27B2375C /* IQKeyboardManager-umbrella.h */,
+				A898FE732531FD484ACBA48EB3D35998 /* IQKeyboardManager.debug.xcconfig */,
+				18CC07637E43C7E244B55826DD58E330 /* IQKeyboardManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		60B123AF0501ACDF897DC9721C62F544 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBD56F97AA567C1A057327B66386667 /* Pods-GKNavigationBarViewControllerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61DDB0504B1706F52A3CEE3721F9833E /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				429CEB2DE395FD9F9D596C863F9BEE55 /* NSBundle+TZImagePicker.h */,
+				05F199ACF0A774C7F5EC1477FA7FB7FE /* NSBundle+TZImagePicker.m */,
+				D088B40BC2BCA47CBEE9C86BAC7E6E72 /* TZAssetCell.h */,
+				BCFEE193304116C2ECA2A28870B433FB /* TZAssetCell.m */,
+				44E4558E6D139D1CED34286D1DD7659C /* TZAssetModel.h */,
+				8D57A781CD7B7FD9C95407F48AE16E2F /* TZAssetModel.m */,
+				9FC86496856ABCFF6AB91EDDD4D202FB /* TZGifPhotoPreviewController.h */,
+				873862F6BA65B7D2AEDD9B14EF6C98A9 /* TZGifPhotoPreviewController.m */,
+				823803324B57F037379BB9419A32CF7B /* TZImageCropManager.h */,
+				58B30A5B03AF8389B3139B20FE21CBFA /* TZImageCropManager.m */,
+				566D5BB82743633BE1C0ED5D7B0FC254 /* TZImageManager.h */,
+				BA6DE057AF602D53EF8CEA0D797E0289 /* TZImageManager.m */,
+				E59D6B1D26CC294AC5C0658EC597B5F8 /* TZImagePickerController.h */,
+				0DDBA22BA834E25966423B4334D93CFF /* TZImagePickerController.m */,
+				0AEB00672C37FF8143468FF73C29A7A1 /* TZImageRequestOperation.h */,
+				BFBB7A99F1BCC5B2F82BA2CD2031E9A3 /* TZImageRequestOperation.m */,
+				23FBAF5F20368D161A59FED4B457F284 /* TZLocationManager.h */,
+				CE05146B9A42BAFEFD882A5D42907BCD /* TZLocationManager.m */,
+				B416B67C512D96B53813EFBE05529EF9 /* TZPhotoPickerController.h */,
+				6928DA1D100497F76B40CD2BD967E944 /* TZPhotoPickerController.m */,
+				F2DEB77562726446B1332BB92E422BFF /* TZPhotoPreviewCell.h */,
+				B485388B884CA41793DCAFE648F115CA /* TZPhotoPreviewCell.m */,
+				D675CF61DCEA838CC024168C4BA48A71 /* TZPhotoPreviewController.h */,
+				DE99B0F2D73A588551E412CE8EF0C52B /* TZPhotoPreviewController.m */,
+				F64E8DF0066B2CB8B3E29A986E8E3C94 /* TZProgressView.h */,
+				965F298ACC43D9A546CDEA197A72133C /* TZProgressView.m */,
+				9C9971A2379DCB3FF8433EBC5873D665 /* TZVideoPlayerController.h */,
+				73AED39AF016E0E56313894133498812 /* TZVideoPlayerController.m */,
+				CCB5E3173FC2611BFD0A7BE4A966A476 /* UIView+Layout.h */,
+				C4B46A817C25C15E6513FF5CF20F346E /* UIView+Layout.m */,
+				2816AC256963AD30B19AB77F4642F535 /* Resources */,
+				FFB7B81D35D3641CB5B1DDB1582B390F /* Support Files */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		83DD9DBD3D7350D9B63288DD66AF6CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				54D2DA8648EAE89D82A145E7884869FB /* Pods_GKNavigationBarViewControllerDemo.framework */,
+				8E1D5C0FCA0D872C3F21E87F25420681 /* TZImagePickerController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		976A5039CA5C288B010F5317E71AA2D3 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD49D5FAC74E42F98FF5223BA5661DC0 /* IQBarButtonItem.h */,
+				2DC4C16B125E0F44A802A3F01EDDFDF7 /* IQBarButtonItem.m */,
+				967A96BFF81031F149B06E3C56EFA278 /* IQKeyboardManager.h */,
+				9733F0EAF5E3369D3C600809B995F2C7 /* IQKeyboardManager.m */,
+				16FEAE866CA3BF793FF49AA9C51A85A1 /* IQKeyboardManagerConstants.h */,
+				0A996B9CDC6B57B891FEFFAC8F6D0222 /* IQKeyboardManagerConstantsInternal.h */,
+				56CBE29FA24BBAB6EAF860ECE7051CCF /* IQKeyboardReturnKeyHandler.h */,
+				D183C602DB091B1F5E551BCF9005EF90 /* IQKeyboardReturnKeyHandler.m */,
+				BE51FE60820BC89202B3D58AC6E33276 /* IQNSArray+Sort.h */,
+				C92DFB8DF7CA8E6162B255945D233824 /* IQNSArray+Sort.m */,
+				05D95AAEF84F7EF8190DA1A701A79AC2 /* IQPreviousNextView.h */,
+				7E596D87C6FDB5BE4A88F714DBC5E8F2 /* IQPreviousNextView.m */,
+				9C3E2CF0A73B5BFB4924F185500AEC86 /* IQTextView.h */,
+				FFA0D46C14DC5C30C1C5F3FC80C7AC3A /* IQTextView.m */,
+				7049BA642CA6FDBFDFFE6A5F315F0DB0 /* IQTitleBarButtonItem.h */,
+				0749187E78373A1F96B2732CE7FE7193 /* IQTitleBarButtonItem.m */,
+				F9CD0A29E6134C7C3CEE23EAF9367AC9 /* IQToolbar.h */,
+				07447E8974CBA40A466EF8C33386CDC2 /* IQToolbar.m */,
+				F6658550FB9A561D5ECF67ACCA219988 /* IQUIScrollView+Additions.h */,
+				02766C8717CC9341467A5FD7A2072906 /* IQUIScrollView+Additions.m */,
+				5BB5F32A72C2BDFA3C62CFCE8064DC14 /* IQUITextFieldView+Additions.h */,
+				90CFD2458ECAA7AB06AC92C02CCD42B3 /* IQUITextFieldView+Additions.m */,
+				AA4F8E039BB8098144DDECA7B7C85BF3 /* IQUIView+Hierarchy.h */,
+				43F7F6ACAB6C11247E6281A56848E402 /* IQUIView+Hierarchy.m */,
+				C4BDCB4925CDCD5802C445F87CB51F53 /* IQUIView+IQKeyboardToolbar.h */,
+				B4CEAF0641C414930C4A61212346BFE1 /* IQUIView+IQKeyboardToolbar.m */,
+				F4320A1002408B05B3A6F54A537A5B33 /* IQUIViewController+Additions.h */,
+				4B0AC9B0C9F12EECB01DF75052BC0A60 /* IQUIViewController+Additions.m */,
+				5A0A2139501A4A2BCE247DB5399ECCD0 /* Support Files */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		9A8FC04A085E3E3934A805B6932A42CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1746EAD6237DDA16BA232E7BED173664 /* Masonry.modulemap */,
+				E0499C3B71A4A5799B8671F6B532DDBD /* Masonry-dummy.m */,
+				DD99C46B192861170ACBAD7CA7104A7D /* Masonry-Info.plist */,
+				B5EA8FE7A15239E5169D1533229AB5B0 /* Masonry-prefix.pch */,
+				F066E951EBD2AD5138FFFAD9FCF58961 /* Masonry-umbrella.h */,
+				76014E0E5700E2353B13BD7D8DB26291 /* Masonry.debug.xcconfig */,
+				830E746EAB763DDF8928973C60C017FD /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC767E1523DDBFA352966E4822DDA638 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA520DFA3518BF837B87AC6F6158F6F4 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				783CAC07C4DC964911D034F2AFCB1AB3 /* MASCompositeConstraint.h */,
+				958DFBADEF78AC5C141BA9AC0AAD7A06 /* MASCompositeConstraint.m */,
+				C98DC6755E6B7503FDD8C731C0CE9358 /* MASConstraint.h */,
+				C2EA4A2CD6CE61FA2C459B6556CB8B3A /* MASConstraint.m */,
+				6D6EA7CCCC7B315C11DEA228F6818B51 /* MASConstraint+Private.h */,
+				2749EF3246B47AD0EFDE3501AC7AAE71 /* MASConstraintMaker.h */,
+				41E35CCD9556285725B6FB55B6A03C30 /* MASConstraintMaker.m */,
+				4B7BBD7BD722E33BEDF0315B53FAB1F4 /* MASLayoutConstraint.h */,
+				EB2ED7F76282CB42B06F4A2B1512AEA4 /* MASLayoutConstraint.m */,
+				291D95A94CE5147BB77F5583FE7E7B41 /* Masonry.h */,
+				7AD6E6DE4F5925640F2429CCAB377878 /* MASUtilities.h */,
+				B0119FE3C32A32788F7CB8F4915226CC /* MASViewAttribute.h */,
+				4D7BB30AB6CCEFE17AF4412CD09A8B44 /* MASViewAttribute.m */,
+				2764A763012C5ABECB1DAF2BE7FCCF04 /* MASViewConstraint.h */,
+				7932A7D3F5EBA6000E7B25E5D82F3DA5 /* MASViewConstraint.m */,
+				01FCDDF11B189E32606036045E5D81B8 /* NSArray+MASAdditions.h */,
+				C90728C4F3FF065A1BBAE48D8EB37696 /* NSArray+MASAdditions.m */,
+				458101B2980126C3CEAA10A5162AE4C5 /* NSArray+MASShorthandAdditions.h */,
+				53C09BF57D60217C4607C3E06A7E3F47 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				83DB908D535DF6976BC4E5154C7FA947 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				99D3EB77A0A4CFF4DE6281BFF9C672D0 /* View+MASAdditions.h */,
+				3AF022BFF67B5313D5556473F7A406F9 /* View+MASAdditions.m */,
+				2578BE896CD4CCD4D535219536065AD4 /* View+MASShorthandAdditions.h */,
+				AC42164BB553A12EB55C2FD1A1ED601A /* ViewController+MASAdditions.h */,
+				A9B80E76B1BD91283CB43DF1E1B056DB /* ViewController+MASAdditions.m */,
+				9A8FC04A085E3E3934A805B6932A42CE /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				25F5DC0C50181970DE6E7A8BC12FDF09 /* Pods */,
+				83DD9DBD3D7350D9B63288DD66AF6CAF /* Products */,
+				60B123AF0501ACDF897DC9721C62F544 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EC767E1523DDBFA352966E4822DDA638 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F82BB3869887F5A33AFCF7E5B96E4631 /* CoreGraphics.framework */,
+				3516C19B2DE5AA471D4617F4C71E7E2D /* Foundation.framework */,
+				A60B81DCA4D693866363059EC5A536A5 /* Photos.framework */,
+				CEB4819518846C7A4505A8432AE34D6A /* QuartzCore.framework */,
+				452AEF825ADB801EFBFBED35DCF695BF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFB7B81D35D3641CB5B1DDB1582B390F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B004EA289738669851D8C9E99572B /* TZImagePickerController.modulemap */,
+				3A8D0993585B87B1BDDD674A36127C5E /* TZImagePickerController-dummy.m */,
+				47FC7E3C4A07ADF780F825E1D30713B2 /* TZImagePickerController-Info.plist */,
+				032DD039AE58B033ED95A539B30A4980 /* TZImagePickerController-prefix.pch */,
+				3AC32457F03FC057808B2A4597A5510D /* TZImagePickerController-umbrella.h */,
+				53B680E62150E9C45857F091D694F3B6 /* TZImagePickerController.debug.xcconfig */,
+				B233A10889037D114148EFC0D76937E4 /* TZImagePickerController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TZImagePickerController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6DF93E7F9F936377F385E4F06CDC6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD251DE11D233E539255A6DD7C1CC3B /* Pods-GKNavigationBarViewControllerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEDC824B1E552545F40676076BD20E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F741924D26FBF0403B284AED21EDCB /* IQBarButtonItem.h in Headers */,
+				12C6E46A5E0FD04DBF7866649491D5F7 /* IQKeyboardManager-umbrella.h in Headers */,
+				6BF82ADE657E689F4F4D4FB0C1D27248 /* IQKeyboardManager.h in Headers */,
+				2B3C65EB96B8237408B8CFC1586F406E /* IQKeyboardManagerConstants.h in Headers */,
+				1B41AC54E11CACC13E07B06EC6D17919 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				8839DA33B5164E66F5730317AE92546E /* IQKeyboardReturnKeyHandler.h in Headers */,
+				EFA8462A0CC26EB370FB6FC0906A0CFF /* IQNSArray+Sort.h in Headers */,
+				5CB6B38AB6F0E37F8910BE3B658CBD59 /* IQPreviousNextView.h in Headers */,
+				F564AC14CA7F3E6B7C01CBA680282277 /* IQTextView.h in Headers */,
+				C8AFE4AA2DB906E9CBC45F785CEE3BBD /* IQTitleBarButtonItem.h in Headers */,
+				40AD629DC248DD9F8AE636A2DB0C5F95 /* IQToolbar.h in Headers */,
+				A2124E1EF06C9BA13E2CCC41B3C750E3 /* IQUIScrollView+Additions.h in Headers */,
+				17682BBCAF1C2E34A74C422D945DE84A /* IQUITextFieldView+Additions.h in Headers */,
+				7266EFAF956AEA659AF4D5A589CA4D97 /* IQUIView+Hierarchy.h in Headers */,
+				3B2A13FD720BF70389C731D834C1117B /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				104E7B3F596C88BFC1933E78ED3ACAC3 /* IQUIViewController+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E745DA049F52C6A4131B59E7B28E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187569DBD35CD3CFE036CEAB107CA854 /* NSBundle+TZImagePicker.h in Headers */,
+				672E4E7567F40F8F5277E5A3AD8BBC0F /* TZAssetCell.h in Headers */,
+				E7F2790057BB71124B3CF8B059A142AC /* TZAssetModel.h in Headers */,
+				DDB1D2957AD7DECA4F52370D857AC91F /* TZGifPhotoPreviewController.h in Headers */,
+				EDB40C49F91B97947EB141BEB93DB917 /* TZImageCropManager.h in Headers */,
+				953DA5F7A0BBD69304E018FB326E7F87 /* TZImageManager.h in Headers */,
+				6B92CE9CDF2C3FA278CB05071297D2A7 /* TZImagePickerController-umbrella.h in Headers */,
+				F2A668AA88EA854A2523594282CACD88 /* TZImagePickerController.h in Headers */,
+				65FD7D51754811E0C8E638BC6423FEBC /* TZImageRequestOperation.h in Headers */,
+				B04E8E7233AB37E36F5580FEDEED3E07 /* TZLocationManager.h in Headers */,
+				237DB08B51A6E9EC88AFFDFB8410A4DF /* TZPhotoPickerController.h in Headers */,
+				056DB216FCD8640A51B540C46A4FAAE5 /* TZPhotoPreviewCell.h in Headers */,
+				65487B179C7463FE192A439C5172208B /* TZPhotoPreviewController.h in Headers */,
+				D5EEB662A0672864F275BA22905A92CD /* TZProgressView.h in Headers */,
+				B870CF099D7C8C1B2EA0B0A101987F67 /* TZVideoPlayerController.h in Headers */,
+				0891D6EB76F5048AEC0EDE6BCB0BC151 /* UIView+Layout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				A676F857666B4CAD4BDF95DA3B337906 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66BA89DB5670753691B05F082292D9D2 /* Pods-GKNavigationBarViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF8AA8EE47F50A9830BA03A54E4218E /* Build configuration list for PBXNativeTarget "Pods-GKNavigationBarViewControllerDemo" */;
+			buildPhases = (
+				0D6DF93E7F9F936377F385E4F06CDC6D /* Headers */,
+				38B5CD356A0E5E26E7A3462A5FFA2245 /* Sources */,
+				411E079DA36712097C6C0C920B70EA13 /* Frameworks */,
+				C66F1E9595C3831D09C221D061894206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B372475758186FF56CA814EBF1D42D0F /* PBXTargetDependency */,
+				2AFE97C039CEAECDAE408573DAC04406 /* PBXTargetDependency */,
+				60966B8F35BEE655C6557ED9F640276B /* PBXTargetDependency */,
+			);
+			name = "Pods-GKNavigationBarViewControllerDemo";
+			productName = "Pods-GKNavigationBarViewControllerDemo";
+			productReference = 54D2DA8648EAE89D82A145E7884869FB /* Pods_GKNavigationBarViewControllerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A96BBB982D62BB807B5BD10774BE2D07 /* TZImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D96BE060AED6185521C1FDD4A8F04A /* Build configuration list for PBXNativeTarget "TZImagePickerController" */;
+			buildPhases = (
+				86E745DA049F52C6A4131B59E7B28E1B /* Headers */,
+				44DBFB784DCEB3C21C0ECC5A7440829E /* Sources */,
+				6C1C1C737785871D52FDF5308DBE844A /* Frameworks */,
+				B82580C61D79F54BF5310C305B88CD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZImagePickerController;
+			productName = TZImagePickerController;
+			productReference = 8E1D5C0FCA0D872C3F21E87F25420681 /* TZImagePickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C106B404F42C7433CEA590A2522CC154 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				1CEDC824B1E552545F40676076BD20E0 /* Headers */,
+				C76A6D3BAEB1B28BB3D197B70A7231C9 /* Sources */,
+				2B81D36864111405952DE674DFB6A43D /* Frameworks */,
+				1BBCAA36277BF4877B19328CB2D58AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 83DD9DBD3D7350D9B63288DD66AF6CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				66BA89DB5670753691B05F082292D9D2 /* Pods-GKNavigationBarViewControllerDemo */,
+				A96BBB982D62BB807B5BD10774BE2D07 /* TZImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BBCAA36277BF4877B19328CB2D58AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82580C61D79F54BF5310C305B88CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A3A2203ACFDDB09D55D4C3CFFC0CE5 /* TZImagePickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F1E9595C3831D09C221D061894206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38B5CD356A0E5E26E7A3462A5FFA2245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3896E5E8D9B898ADD41834D8EC509DFB /* Pods-GKNavigationBarViewControllerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DBFB784DCEB3C21C0ECC5A7440829E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA119D1495708E728C2ACB29F2F8C0 /* NSBundle+TZImagePicker.m in Sources */,
+				781A3911FFE8E07B09C2B767504F2B7C /* TZAssetCell.m in Sources */,
+				3D766954D1E40BCA3951EE2BE8BE20D7 /* TZAssetModel.m in Sources */,
+				41E6B383D3A223776305158A6E7B76EF /* TZGifPhotoPreviewController.m in Sources */,
+				0CD0E8DD52897E7D64E85E6667D56AE8 /* TZImageCropManager.m in Sources */,
+				32E3C2286274FFAF162933CEC390699D /* TZImageManager.m in Sources */,
+				B68E3D20C0430E7EFCA57C2228F4F940 /* TZImagePickerController-dummy.m in Sources */,
+				C4DCEA0F75A7BD1EB16C0B63C9C6E755 /* TZImagePickerController.m in Sources */,
+				0A238969C1DB8B5AC1B314FB35D0E1DE /* TZImageRequestOperation.m in Sources */,
+				358B5472D6E2E4E2DF60DE343796E7AA /* TZLocationManager.m in Sources */,
+				85CD29CF6187A74CEF593DB6F45066F7 /* TZPhotoPickerController.m in Sources */,
+				6DD06A4C10D58A87A304E9B84F60CDD0 /* TZPhotoPreviewCell.m in Sources */,
+				E57825CF138179E83F60D74FFEEDF1C6 /* TZPhotoPreviewController.m in Sources */,
+				6FC1476D9D7E4AEF05CA3DDFEF41EBA0 /* TZProgressView.m in Sources */,
+				9BDB9BA1378CD5E21837D35BAEA9EAF7 /* TZVideoPlayerController.m in Sources */,
+				654DE054134D461CF806F6B732CCDD69 /* UIView+Layout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A676F857666B4CAD4BDF95DA3B337906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E9D7C1CDDB8E3398CAF29C3CB73F9D /* MASCompositeConstraint.m in Sources */,
+				12E263CAE24019CFE3D33943B079439A /* MASConstraint.m in Sources */,
+				20C47629AD9EFF6232796690CA4FF6AC /* MASConstraintMaker.m in Sources */,
+				D62D938F537BEBABFF332AAA5B0F9B3D /* MASLayoutConstraint.m in Sources */,
+				93E26DDA3C4CC7BDACDD059969833B74 /* Masonry-dummy.m in Sources */,
+				0E7FF8C6F624558702E00178BC97E84A /* MASViewAttribute.m in Sources */,
+				248D234778D36A89A6170BA3778A2777 /* MASViewConstraint.m in Sources */,
+				02131E914CD548E4B2B9513871D94C08 /* NSArray+MASAdditions.m in Sources */,
+				CFC0DE364E072FB0A0432DDEBC0E45A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				505A0529CDF3A5A2E694D0CE0BA81EDE /* View+MASAdditions.m in Sources */,
+				2C43817529EB28E5896C72C9BE82A2FA /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76A6D3BAEB1B28BB3D197B70A7231C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5409D0F19C959291277E9F2F527D9570 /* IQBarButtonItem.m in Sources */,
+				5A812CCABB27AB947183CFFFAC6FF709 /* IQKeyboardManager-dummy.m in Sources */,
+				F001AAF4528E0DC15FB3EDD895E236DD /* IQKeyboardManager.m in Sources */,
+				CA1A522719F56F1FB8368A37A350430D /* IQKeyboardReturnKeyHandler.m in Sources */,
+				51887D7547C119FBE1E95A2A9BA85DDB /* IQNSArray+Sort.m in Sources */,
+				D5EE57D4AA3DB113162B65421755ABAB /* IQPreviousNextView.m in Sources */,
+				7C6A70056BE6B0170C0A6369E60B1AD3 /* IQTextView.m in Sources */,
+				EC8E032478076D990AFE8AD4D4D09FB0 /* IQTitleBarButtonItem.m in Sources */,
+				C8B07F99D0AAD94687F397DEA9B82F3A /* IQToolbar.m in Sources */,
+				94290DF957E14F36AE503C2567D97B0B /* IQUIScrollView+Additions.m in Sources */,
+				4153FE6A5FA375E819855DC569F90F91 /* IQUITextFieldView+Additions.m in Sources */,
+				83497A890B9CB920B1725BFCA09464F6 /* IQUIView+Hierarchy.m in Sources */,
+				6F8E2FA778D62979991AAEC19B9EE9E9 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				A995C4CB88129960208C1D1D03F08AEB /* IQUIViewController+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFE97C039CEAECDAE408573DAC04406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 690D37CDAB8D946FE23F4895CA8303EB /* PBXContainerItemProxy */;
+		};
+		60966B8F35BEE655C6557ED9F640276B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			target = A96BBB982D62BB807B5BD10774BE2D07 /* TZImagePickerController */;
+			targetProxy = 43705260855AEBB5493D4285DAA106BC /* PBXContainerItemProxy */;
+		};
+		B372475758186FF56CA814EBF1D42D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */;
+			targetProxy = ACA1F733864EBEA90A68370DF0CFE1BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E16AB021544C701D5574A59DF01C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5744039C914B9902850CEC6E3F7841E1 /* Pods-GKNavigationBarViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKNavigationBarViewControllerDemo/Pods-GKNavigationBarViewControllerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKNavigationBarViewControllerDemo/Pods-GKNavigationBarViewControllerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3291FBA6637F3E5F07587ED127D86F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830E746EAB763DDF8928973C60C017FD /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AC2EE63AE6612F8DEC3C3DBB64A758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18CC07637E43C7E244B55826DD58E330 /* IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E01B488E3237AB4B74B4538F3984E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B680E62150E9C45857F091D694F3B6 /* TZImagePickerController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TZImagePickerController/TZImagePickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TZImagePickerController/TZImagePickerController.modulemap";
+				PRODUCT_MODULE_NAME = TZImagePickerController;
+				PRODUCT_NAME = TZImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97CDFB97EF982555472C41667ECE5232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351EFA9A6C25C723849A90E5530D59C6 /* Pods-GKNavigationBarViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKNavigationBarViewControllerDemo/Pods-GKNavigationBarViewControllerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKNavigationBarViewControllerDemo/Pods-GKNavigationBarViewControllerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4909143D4224E35F7E4759D4C9ED882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A898FE732531FD484ACBA48EB3D35998 /* IQKeyboardManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E0ADB98737F1A9E1306C86433176FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B233A10889037D114148EFC0D76937E4 /* TZImagePickerController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TZImagePickerController/TZImagePickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TZImagePickerController/TZImagePickerController.modulemap";
+				PRODUCT_MODULE_NAME = TZImagePickerController;
+				PRODUCT_NAME = TZImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F41B37955474857B252ABC87FAD371A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76014E0E5700E2353B13BD7D8DB26291 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D96BE060AED6185521C1FDD4A8F04A /* Build configuration list for PBXNativeTarget "TZImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E01B488E3237AB4B74B4538F3984E74 /* Debug */,
+				E0ADB98737F1A9E1306C86433176FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF8AA8EE47F50A9830BA03A54E4218E /* Build configuration list for PBXNativeTarget "Pods-GKNavigationBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E16AB021544C701D5574A59DF01C35 /* Debug */,
+				97CDFB97EF982555472C41667ECE5232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41B37955474857B252ABC87FAD371A3 /* Debug */,
+				3291FBA6637F3E5F07587ED127D86F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C106B404F42C7433CEA590A2522CC154 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4909143D4224E35F7E4759D4C9ED882 /* Debug */,
+				6AC2EE63AE6612F8DEC3C3DBB64A758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
