@@ -41,11 +41,12 @@
 
 - (UIView *)preferCoverView
 {
-    UIView *view = [[UIView alloc] initWithFrame:[self preferCoverFrame]];
-    view.backgroundColor = [UIColor blackColor];
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:[self preferCoverFrame]];
+    imgView.image = [UIImage imageNamed:@"testImg"];
 
-    return view;
+    return imgView;
 }
+
 
 - (CGFloat)preferTabY
 {
