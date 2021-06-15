@@ -41,10 +41,23 @@
 
 - (UIView *)preferCoverView
 {
+    // 如果返回的不是imgView，没有头部缩放效果
+    UIView *view = [[UIView alloc] initWithFrame:[self preferCoverFrame]];
+    view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:view];
+
+    // 加不加imgView tab的滑动高度还不一样
     UIImageView *imgView = [[UIImageView alloc] initWithFrame:[self preferCoverFrame]];
     imgView.image = [UIImage imageNamed:@"testImg"];
+    [view addSubview:imgView];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [button setTitle:@"button" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont systemFontOfSize:14];
+    [view addSubview:button];
 
-    return imgView;
+    return view;
 }
 
 
